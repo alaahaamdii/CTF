@@ -1,0 +1,9 @@
+<?php
+
+// Database connection settings
+$db_server = "localhost";
+$db_username = "root";
+$db_password = "";
+$db_name = "labdbhat";
+
+?>

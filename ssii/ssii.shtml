@@ -1,0 +1,1 @@
+<p>Hello Test Test,</p><p>Your IP address is:</p><h1><!--#echo var="REMOTE_ADDR" --></h1>

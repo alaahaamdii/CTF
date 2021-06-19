@@ -1,0 +1,59 @@
+----------------------  Vulnerabilities  -----------------------,portal.php
+/ A1 - Injection /,portal.php
+HTML Injection - Reflected v1 (GET),html_get_1/index.php
+HTML Injection - Reflected v2 (GET),html_get_2/index.php
+HTML Injection - Reflected v1 (POST),html_post_1/index.php
+HTML Injection - Reflected v2 (POST),html_post_2/index.php
+HTML Injection - Reflected (Current URL),html_current_url/index.php
+PHP Code Injection,phpi/index.php
+iFrame Injection, iframei/index.php
+OS Command Injection v1,commandi_1/index.php
+OS Command Injection v2,commandi_2/index.php
+OS Command Injection - Blind,comi_blind/index.php
+Server-Side Includes (SSI) Injection,ssii/index.php
+SQL Injection (GET/Search),sqli_1/index.php
+SQL Injection (GET/Select),sqli_2/index.php
+SQL Injection (POST/Search),sqli_6/index.php
+SQL Injection (POST/Select),sqli_13/index.php
+SQL Injection (Login Form/Hero),sqli_3/index.php
+SQL Injection - Blind - Boolean-Based,sqli_4/index.php
+XML/XPath Injection (Login Form),xmli_1/index.php
+XML/XPath Injection (Search),xmli_2/index.php
+/,portal.php
+/ A2 - Broken Auth. & Session Mgmt. /,portal.php
+Broken Authentication - Weak Passwords,ba_weak_pwd/index.php
+Broken Authentication - Insecure Login Forms,ba_insecure_login/index.php
+Session Management - Administrative Portals,smgmt_admin_portal/index.php
+/,portal.php
+/ A3 - Cross-Site Scripting (XSS) /,portal.php
+Cross-Site Scripting - Reflected (GET),xss_get.php
+Cross-Site Scripting - Reflected (POST),xss_post.php
+Cross-Site Scripting - Reflected (JSON),xss_json.php
+Cross-Site Scripting - Reflected (Back Button),xss_back_button.php
+Cross-Site Scripting - Reflected (Custom Header),xss_custom_header.php
+Cross-Site Scripting - Reflected (Eval),xss_eval.php?date=Date()
+Cross-Site Scripting - Reflected (HREF),xss_href-1.php
+Cross-Site Scripting - Reflected (Login Form),xss_login.php
+Cross-Site Scripting - Reflected (User-Agent),xss_user_agent.php
+Cross-Site Scripting - Stored (Cookies),xss_stored_2.php
+Cross-Site Scripting - Stored (User-Agent),xss_stored_4.php
+/,portal.php
+/ A7 - Missing Functional Level Access Control /,portal.php
+Directory Traversal - Directories,directory_traversal_2.php?directory=documents
+Directory Traversal - Files,directory_traversal_1.php?page=message.txt
+Restrict Device Access,restrict_device_access.php
+Remote & Local File Inclusion (RFI/LFI),rlfi.php
+/,portal.php
+/ A8 - Cross-Site Request Forgery (CSRF) /,portal.php
+Cross-Site Request Forgery (Change Password),csrf_1.php
+Cross-Site Request Forgery (Transfer Amount),csrf_2.php
+/,portal.php
+/ A10 - Unvalidated Redirects & Forwards /,portal.php
+Improper redirect,impropre_redirect.php	
+/ A10 - Unvalidated Redirects & Forwards /,portal.php
+Unvalidated Redirects & Forwards (1),unvalidated_redir_fwd_1.php
+Unvalidated Redirects & Forwards (2),unvalidated_redir_fwd_2.php
+/,portal.php			
+/ Other bugs... /,portal.php
+HTTP Verb Tampering,http_verb_tampering.php
+Unrestricted File Upload,unrestricted_file_upload.php
